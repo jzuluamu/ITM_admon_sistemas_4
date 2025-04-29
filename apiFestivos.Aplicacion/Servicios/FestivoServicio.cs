@@ -79,6 +79,7 @@ namespace apiFestivos.Aplicacion.Servicios
         private FechaFestivo ObtenerFestivo(int año, Festivo festivo)
         {
             FechaFestivo fechaFestivo = null;
+            DateTime domingoPascua = AgregarDias(ObtenerInicioSemanaSanta(año), 7);
             switch (festivo.IdTipo)
             {
                 case 1:
@@ -98,14 +99,14 @@ namespace apiFestivos.Aplicacion.Servicios
                 case 3:
                     fechaFestivo = new FechaFestivo
                     {
-                        Fecha = AgregarDias(ObtenerInicioSemanaSanta(año), festivo.DiasPascua),
+                        Fecha = AgregarDias(domingoPascua, festivo.DiasPascua),
                         Nombre = festivo.Nombre
                     };
                     break;
                 case 4:
                     fechaFestivo = new FechaFestivo
                     {
-                        Fecha = SiguienteLunes(AgregarDias(ObtenerInicioSemanaSanta(año), festivo.DiasPascua)),
+                        Fecha = SiguienteLunes(AgregarDias(domingoPascua, festivo.DiasPascua)),
                         Nombre = festivo.Nombre
                     };
                     break;
