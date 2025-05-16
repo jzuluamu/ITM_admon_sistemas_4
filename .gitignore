@@ -15,6 +15,7 @@ bld/
 *.user
 *.userosscache
 *.sln.docstates
+.vs/
 
 # Mono Auto Generated Files
 mono_crash.*

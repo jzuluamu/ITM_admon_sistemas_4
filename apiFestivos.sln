@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiFestivos.Aplicacion", "a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiFestivos.Presentacion", "apiFestivos.Presentacion\apiFestivos.Presentacion.csproj", "{5099B615-4372-4B2F-9603-989D5DDCD249}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiFestivos.Tests", "apiFestivos.Tests\apiFestivos.Tests.csproj", "{5BE13B11-764E-AD74-1881-2960C8D6597E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5099B615-4372-4B2F-9603-989D5DDCD249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5099B615-4372-4B2F-9603-989D5DDCD249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5099B615-4372-4B2F-9603-989D5DDCD249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE13B11-764E-AD74-1881-2960C8D6597E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE13B11-764E-AD74-1881-2960C8D6597E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE13B11-764E-AD74-1881-2960C8D6597E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE13B11-764E-AD74-1881-2960C8D6597E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
